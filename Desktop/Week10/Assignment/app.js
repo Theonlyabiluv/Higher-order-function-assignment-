@@ -1,12 +1,11 @@
 // Higher Order Functions Assignment
 // Functions Assignment 
-def fullName_print('Abigail, Opuoru') ;
- "Prints out my full name.";
- print("Abigail, Opuoru")
+function fullName("Opuoru Abigail");
+fullName("opuoru A")
 //Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name.
 print(fullName_print('Abigail,  Opuoru'))
 
- def fullName_return(firstName, lastName);
+ fullName_return(firstName, lastName);
 "Return my fullName"
 return firstName + " " + lastName
 print(fullName_return('Abigail', 'Opuoru'))
